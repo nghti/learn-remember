@@ -1,3 +1,3 @@
-# Tannguyen Blog
+# nghti Blog
 
 Thank you reading!
