@@ -1,4 +1,3 @@
-## FAQ
 - [Có 3 cách đặt thẻ script](https://trello.com/c/5sm3mWW3/4-js-javascript-l%C3%A0-g%C3%AC-1)
 - [Khai báo biến sao cho đúng](https://trello.com/c/tr412o82/5-js-khai-b%C3%A1o-bi%E1%BA%BFn-2)
 - [Đối tượng hiển thị trình duyệt là gi?](https://trello.com/c/6sVHyEg7/6-js-h%C3%A0m-alert-confirm-v%C3%A0-prompt-3)
@@ -98,7 +97,7 @@ charAt()
 split()
 ```
 - [Array Object](https://trello.com/c/pffrZkNv/32-js-array-object-29)
-```vue
+```js
 var name_array = new Array(1,2,3)
 var name_array = [1,2,3]
 alert(name_array[0])
