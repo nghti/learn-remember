@@ -168,6 +168,7 @@ setDate() Thêm ngày (1 - 31)
 - [BOM là gì?](https://trello.com/c/yrdLKCEJ/39-js-bom-là-gì-36)
 - [BOM Window](https://trello.com/c/nbvXKzip/40-js-bom-window-37)
 > Window là một đối tượng toàn cục và ở đâu trong website cũng có thể sử dụng được.
+
 ```javascript
 window.innerHeight
 window.innerWidth
@@ -179,6 +180,7 @@ windowObj.resizeTo(width, height)
 ```
 - [BOM Location](https://trello.com/c/JBD0GqIm/41-js-bom-location-38)
 > location : chuyên dùng xử lý URL của trang web
+
 ```javascript
 // Phương thức
 window.location
@@ -209,6 +211,7 @@ document.cookie="website=freetuts.net; expires=Thu, 0 Dec 2015 12:00:00 UTC";
 ```
 - [BOM Window Navigator](https://trello.com/c/8PUFCaiJ/44-js-bom-window-navigator-41)
 > Window Navigator: Để kiểm tra thông tin người dùng như trình duyệt, hệ điều hành, cookie ...
+
 ```javascript
 navigator.cookieEnabled
 navigator.appName & navigator.appCodeName
@@ -228,13 +231,12 @@ screen.pixelDepth
 ```
 - [Object là gì?](https://trello.com/c/xmiQTwXR/46-js-object-là-gì-43)
 ```javascript
-new Object()
-{}
-
+var Comment = new Object()
+var Comment = {}
 var Comment = {
     title : "",
     content : ""
-};
+}
 ```
 - [Thao tác với Object](https://trello.com/c/JK54CxsZ/47-js-thao-tác-với-object-44)
 - [Object Prototype](https://trello.com/c/f0FZSjaK/48-js-object-prototype-45)
