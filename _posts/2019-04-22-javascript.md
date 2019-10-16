@@ -97,16 +97,7 @@ charAt()
 split()
 ```
 - [Array Object](https://trello.com/c/pffrZkNv/32-js-array-object-29)
-```js
-var name_array = new Array(1,2,3)
-var name_array = [1,2,3]
-alert(name_array[0])
-array.join()
-var name_array = [1,2,3];
-for (var i = 0; i < name_array.length; i++){
-    document.write(name_array[i]);
-}
-```
+
 - [Array Object Function](https://trello.com/c/JGtZNjLs/33-js-array-object-function-30)
 ```vue
 array.valueOf()
