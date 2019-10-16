@@ -17,7 +17,7 @@
 - [Vòng lặp while, do while](https://trello.com/c/pDQ9C9GU/16-js-v%C3%B2ng-l%E1%BA%B7p-while-do-while-13)
 - [break, continue](https://trello.com/c/qo6IcEVI/17-js-l%E1%BB%87nh-break-continue-14)
 - [Sự kiện trong javascript](https://trello.com/c/NsMWxLHg/18-js-sự-kiện-event-là-gì-15)
-```vue
+```js
 STT	Event Name	    Description
 1	onclick             Xảy ra khi click vào thẻ HTML
 2	ondbclick	    Xảy ra khi double click vào thẻ HTML
@@ -43,7 +43,7 @@ STT	Event Name	    Description
 - [removeEventListener](https://trello.com/c/0C6JqmyI/23-js-hàm-removeeventlistener-20)
 - [DOM là gì?](https://trello.com/c/mHZzhQUp/24-js-dom-là-gì-21)
 - [DOM Element](https://trello.com/c/qOtlzmLX/25-js-dom-element-22)
-```vue
+```js
 var element = document.getElementById('website')
 document.getElementsByTagName('input');
 document.getElementsByClassName('website')
@@ -52,7 +52,7 @@ element.value
 element[0].value
 ```
 - [DOM HTML](https://trello.com/c/PpvIPtcC/26-js-dom-html-23)
-```vue
+```js
 var html = document.getElementById("content")
 html.innerHTML
 html.innerHTML = "<h2>noi dung</h2>"
@@ -62,13 +62,13 @@ html.attributeName = "new value"
 html.type = "button"
 ```
 - [DOM CSS](https://trello.com/c/qCl10JA9/27-js-dom-css-24)
-```vue
+```js
 document.getElementById("object").style.cssName = 'something';
 >>
 document.getElementById("object").style.background = 'red';
 ```
 - [DOM Nodes](https://trello.com/c/L0Wvf20O/28-js-dom-nodes-25)
-```vue
+```js
 document.createElement()
 document.createTextNode()
 appendChild()
@@ -77,12 +77,12 @@ removeChild()
 replaceChild()
 ```
 - [String Object](https://trello.com/c/LTxZALUI/30-js-string-object-27)
-```vue
+```js
 number.toString()
 typeof number
 ```
 - [String Object Function](https://trello.com/c/mNFplg4v/31-js-string-object-function-28)
-```vue
+```js
 String.indexOf(str)
 lastIndexOf()
 search()
@@ -97,9 +97,18 @@ charAt()
 split()
 ```
 - [Array Object](https://trello.com/c/pffrZkNv/32-js-array-object-29)
-
+```js
+var name_array = new Array(1,2,3)
+var name_array = [1,2,3]
+alert(name_array[0])
+array.join()
+var name_array = [1,2,3];
+for (var i = 0; i < name_array.length; i++){
+    document.write(name_array[i]);
+}
+```
 - [Array Object Function](https://trello.com/c/JGtZNjLs/33-js-array-object-function-30)
-```vue
+```js
 array.valueOf()
 array.push()
 array.pop()
@@ -113,7 +122,7 @@ array.slice(start, end)
 ```
 - [Number Object](https://trello.com/c/qdhiQlai/34-js-number-object-31)
 - [Number Object Function](https://trello.com/c/pMyMfZrg/35-js-number-object-function-32)
-```vue
+```js
 Number()
 parseInt()
 parseFloat()
@@ -123,7 +132,7 @@ toPrecision(n)
 valueOf()
 ```
 - [Date Object](https://trello.com/c/C07RqZRU/36-js-date-object-33)
-```vue
+```js
 new Date()
 new Date(dateString)
         - year
@@ -140,7 +149,7 @@ Short new Date("03/25/2015")
 đầy đủ    Phải ghi đầy đủ hết
 ```
 - [Date Object Function](https://trello.com/c/fEPjquEY/37-js-date-object-function-34)
-```vue
+```js
 getDate() lấy ngày (1 - 31)
 getDay() lấy ngày trong tuần (0-6)
 getFullYear() lấy năm đầy đủ (YYYY)
@@ -159,7 +168,7 @@ setDate() Thêm ngày (1 - 31)
 - [BOM là gì?](https://trello.com/c/yrdLKCEJ/39-js-bom-là-gì-36)
 - [BOM Window](https://trello.com/c/nbvXKzip/40-js-bom-window-37)
 > Window là một đối tượng toàn cục và ở đâu trong website cũng có thể sử dụng được.
-```vue
+```js
 window.innerHeight
 window.innerWidth
 ...
@@ -170,7 +179,7 @@ windowObj.resizeTo(width, height)
 ```
 - [BOM Location](https://trello.com/c/JBD0GqIm/41-js-bom-location-38)
 > location : chuyên dùng xử lý URL của trang web
-```vue
+```js
 // Phương thức
 window.location
 window.location.reload(url)
@@ -188,19 +197,19 @@ port
 search
 ```
 - [BOM History](https://trello.com/c/R80gSkSR/42-js-bom-history-39)
-```vue
+```js
 window.history.length
 window.history.back()
 window.history.forward()
 window.history.go(-4)
 ```
 - [BOM Cookie](https://trello.com/c/GLLLvPOi/43-js-bom-cookie-40)
-```vue
+```js
 document.cookie="website=freetuts.net; expires=Thu, 0 Dec 2015 12:00:00 UTC";
 ```
 - [BOM Window Navigator](https://trello.com/c/8PUFCaiJ/44-js-bom-window-navigator-41)
 > Window Navigator: Để kiểm tra thông tin người dùng như trình duyệt, hệ điều hành, cookie ...
-```vue
+```js
 navigator.cookieEnabled
 navigator.appName & navigator.appCodeName
 navigator.product
@@ -209,7 +218,7 @@ navigator.platform
 navigator.language
 ```
 - [BOM Screen](https://trello.com/c/fjIMtZji/45-js-bom-screen-42)
-```vue
+```js
 screen.width
 screen.height
 screen.availWidth
@@ -218,7 +227,7 @@ screen.colorDepth
 screen.pixelDepth
 ```
 - [Object là gì?](https://trello.com/c/xmiQTwXR/46-js-object-là-gì-43)
-```vue
+```js
 new Object()
 {}
 
