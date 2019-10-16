@@ -1,542 +1,243 @@
-# Javascript
-```html
-1  Types                                // Done
-2  References                           // Done
-3  Objects                              // 2
-4  Arrays                               // Done
-5  Destructuring                        // Done
-6  Strings                              // Done
-7  Functions                            // 2
-8  Arrow Functions                      // Done
-9  Classes & Constructors               // 3
-10 Modules                              // Done
-11 Iterators and Generators             // Done
-12 Properties                           // Done
-13 Variables                            // Done
-14 Hoisting                             // 2
-15 Comparison Operators & Equality      // 2 - 15.5
-16 Blocks                               // Done
-17 Control Statements                   // Done
-18 Comments                             // Done
-19 Whitespace                           // Done
-20 Commas                               // Done
-21 Semicolons                           // Done
-22 Type Casting & Coercion              // Done
-23 Naming Conventions                   // Done
-24 Accessors                            // 3
-25 Events                               // 2
-26 jQuery                               // Done
-27 ECMAScript 5 Compatibility           // bad
-28 ECMAScript 6+ (ES 2015+) Styles      // bad
-29 Standard Library                     // Done
-30 Testing                              // Done
-31 Performance                          // ...
-32 Resources                            // ...
-33 In the Wild                          // ...
-34 Translation                          // ...
-35 The JavaScript Style Guide Guide     // ...
-36 Chat With Us About JavaScript        // ...
-37 Contributors                         // ...
-38 License                              // ...
+## FAQ
+- [Có 3 cách đặt thẻ script](https://trello.com/c/5sm3mWW3/4-js-javascript-l%C3%A0-g%C3%AC-1)
+- [Khai báo biến sao cho đúng](https://trello.com/c/tr412o82/5-js-khai-b%C3%A1o-bi%E1%BA%BFn-2)
+- [Đối tượng hiển thị trình duyệt là gi?](https://trello.com/c/6sVHyEg7/6-js-h%C3%A0m-alert-confirm-v%C3%A0-prompt-3)
+- [Các toán tử cần nhớ](https://trello.com/c/NTktUUCX/7-js-các-toán-tử-4)
+    + toán tử toán học
+    + toán tử gán
+    + toán tử quan hệ
+    + toán tử luận lý
+    + toán tử so sánh
+    + Nhớ độ ưu tiên của toán tử
+- [if/else](https://trello.com/c/lGeiSt5C/8-js-l%E1%BB%87nh-if-else-5)
+- [switch, case](https://trello.com/c/2BwQc2qC/9-js-l%E1%BB%87nh-switch-case-6)
+- [functions là gi](https://trello.com/c/SduJ3Qwi/10-js-function-7)
+- [Global vs local](https://trello.com/c/OAP3LT1j/11-js-biến-toàn-cục-và-cục-bộ-8)
+- [setTimeout, setInterval](https://trello.com/c/PxctX5sT/14-js-settimeout-setinterval-11)
+- [Vòng lặp for](https://trello.com/c/gWdye63t/15-js-vòng-lặp-for-12)
+- [Vòng lặp while, do while](https://trello.com/c/pDQ9C9GU/16-js-v%C3%B2ng-l%E1%BA%B7p-while-do-while-13)
+- [break, continue](https://trello.com/c/qo6IcEVI/17-js-l%E1%BB%87nh-break-continue-14)
+- [Sự kiện trong javascript](https://trello.com/c/NsMWxLHg/18-js-sự-kiện-event-là-gì-15)
+```vue
+STT	Event Name	    Description
+1	onclick             Xảy ra khi click vào thẻ HTML
+2	ondbclick	    Xảy ra khi double click vào thẻ HTML
+3	onchange	    Xảy ra khi giá trị (value) của thẻ HTML đổi. Thường dùng trong các đối thẻ form input
+4	onmouseover	    Xảy ra khi con trỏ chuột bắt đầu đi vào thẻ HTML
+5	onmouseout	    Xảy ra khi con trỏ chuột bắt đầu rời khỏi thẻ HTML
+6	onmouseenter	    Tương tự như onmouseover
+7	onmouseleave	    Tương tự như onmouseout
+8	onmousemove	    Xảy ra khi con chuột di chuyển bên trong thẻ HTML
+9	onkeydown	    Xảy ra khi gõ một phím bất kì vào ô input
+10	onload	            Sảy ra khi thẻ HTML bắt đầu chạy, nó giống như hàm khởi tạo trong lập trình hướng đối tượng vậy đó.
+11	onkeyup	            Xảy ra khi bạn gõ phím nhưng lúc bạn nhã phím ra sẽ được kích hoạt
+12	onkeypress	    Xảy ra khi bạn nhấn môt phím vào ô input
+14	onblur	            Xảy ra khi con trỏ chuột rời khỏi ô input
+15	oncopy	            Xảy ra khi bạn copy nội dung của thẻ
+16	oncut	            Xảy ra khi bạn cắt nội dung của thẻ
+17	onpaste	            Xảy ra khi bạn dán nội dung vào thẻ
 ```
-## Browser environment ( `Môi trường trình duyệt` )
-### Browser objects ( `Đối tượng trình duyệt` )
-```js
-var title = document.title;
-var href = window.location.href;
+- [Thêm sự kiện bằng javascrip & for](https://trello.com/c/sFHdiH08/19-js-thêm-sự-kiện-event-16)
+- [return true/false](https://trello.com/c/JGaACbVx/20-js-return-true-false-17)
+- [sự kiện onload](https://trello.com/c/LxcgVCHs/21-js-sự-kiện-onload-18)
+- [addEventListener](https://trello.com/c/VK7T4Qxn/22-js-hàm-addeventlistener-19)
+- [removeEventListener](https://trello.com/c/0C6JqmyI/23-js-hàm-removeeventlistener-20)
+- [DOM là gì?](https://trello.com/c/mHZzhQUp/24-js-dom-là-gì-21)
+- [DOM Element](https://trello.com/c/qOtlzmLX/25-js-dom-element-22)
+```vue
+var element = document.getElementById('website')
+document.getElementsByTagName('input');
+document.getElementsByClassName('website')
+document.querySelectorAll("div input.website"
+element.value
+element[0].value
+```
+- [DOM HTML](https://trello.com/c/PpvIPtcC/26-js-dom-html-23)
+```vue
+var html = document.getElementById("content")
+html.innerHTML
+html.innerHTML = "<h2>noi dung</h2>"
+html.attributeName
+html.attributeName = "new value"
+>>
+html.type = "button"
+```
+- [DOM CSS](https://trello.com/c/qCl10JA9/27-js-dom-css-24)
+```vue
+document.getElementById("object").style.cssName = 'something';
+>>
+document.getElementById("object").style.background = 'red';
+```
+- [DOM Nodes](https://trello.com/c/L0Wvf20O/28-js-dom-nodes-25)
+```vue
+document.createElement()
+document.createTextNode()
+appendChild()
+insertBefore()
+removeChild()
+replaceChild()
+```
+- [String Object](https://trello.com/c/LTxZALUI/30-js-string-object-27)
+```vue
+number.toString()
+typeof number
+```
+- [String Object Function](https://trello.com/c/mNFplg4v/31-js-string-object-function-28)
+```vue
+String.indexOf(str)
+lastIndexOf()
+search()
+slice(start, end)
+substring(start, end)
+substr(start, length)
+replace(str_find, str_replace)
+toUpperCase()
+toLowerCase()
+concat()
+charAt()
+split()
+```
+- [Array Object](https://trello.com/c/pffrZkNv/32-js-array-object-29)
+```vue
+var name_array = new Array(1,2,3)
+var name_array = [1,2,3]
+alert(name_array[0])
+array.join()
 
-document.write("hello work");            // hiện chữ trên html
-window.alert('in box');                  // hiện box
-confirm('yes or no?');                   // y/n
-prompt('What is your name?');            // nhập
-
-console.log('in ra text');
-console.error('in ra lỗi');
-console.info('in ra thông tin');
-console.warn('in ra chú ý');
-```
-### Variables & Types ( `biến và loại` )
-#### Number
-```js
-var s = 2;
-```
-#### String
-```js
-var c = "You're empty.\nSo are you.";
-```
-#### Boolean
-```js
-var dung = true;
-var sai = false;
-```
-#### Null and Undefined
-```js
-var neo;                                 // Type is undefined (Không xác định)
-neo = null;                              // Type is object (đối tượng)
-```
-## Arrays ( `mảng` )
-### Creating
-```js
-var a = [];                              // không có yếu tố / []
-var b = new Array();                     // ~~~~~~~~~~~~~~~
-var c = [,,,,];                          // 4 yếu tố, tất cả undefined / []
-var d = new Array(4);                    // ~~~~~~~~~~~~~~~~~~~~~~~~~~
-var e = ["the", 1, true];                // 3 yếu tố khác nhau của các loại / ["the", 1, true]
-var f = new Array("the", 1, true);       // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-```
-### Reading and writing
-```js
-var a = ["white"];                       // Bắt đầu với một mảng một phần tử / ["white"]
-var b = a[0];                            // b => white
-var c = a[100];                          // c => undefined (no error)
-a[1] = 3.14;                             // a => ["white", 3.14]
-var i = 2;                               // i = 2
-a[i] = 3;                                // a => ["white", 3.14, 3]
-a[i + 1] = "rabbit";                     // a => ["white", 3.14, 3, "rabbit"]
-a[a[i]] = a[0];                          // a => ["white", 3.14, 3, "white"]
-var d = a.length;                        // d => 4 / đếm pt
-```
-### Adding and deleting
-```js
-var a = ["follow", "the", "white", "rabbit"];
-
-var b = a.pop();               // a => ["follow", "the", "white"]           // xóa pt cuối
-                               // b => "rabbit"
-var c = a.push("RABBIT");      // a => ["follow", "the", "white", "RABBIT"] // thêm vào pt cuối
-                               // c => 4 (new length)
-var d = a.shift();             // a => ["the", "white", "RABBIT"]           // xóa pt đầu
-                               // d => "follow"
-var e = a.unshift("FOLLOW");   // a => ["FOLLOW", "the", "white", "RABBIT"] // thêm vào pt đầu
-                               // e => 4 (new length)
-var f = a.splice(2, 1);        // a => ["FOLLOW", "the", "RABBIT"]          // xóa pt chọn
-                               // f => "white"
-var g = a.splice(1, 2, "ME");  // a => ["FOLLOW", "ME"]                     // thêm pt chọn
-                               // g => ["the", "RABBIT"]
-```            
-## Operators ( `vận hành` )
-### Arithmetics ( `toán tử` )
-```js
-var a = 6 + 4;                           // a => 10
-var b = -a;                              // b => -10
-var c = 6 - 4;                           // c => 2
-
-var d = 1, e = ++d;                      // d and e are both 2
-var f = 1, g = f++;                      // f is 2, g is 1
-var h = 7, i = --h;                      // h and i are both 6
-var j = 7, k = j--;                      // j is 6, k is 7
-
-var l = 3 * 3                            // l => 9
-var m = 10 / 3                           // m => 3.3333333333333335
-var n = 10 % 3                           // n => 1
-
-var o = "Dodge" + " " + "this."          // o => "Dodge this.";
-```
-### Equality ( `bằng` )
-```js
-var a = "2" == 2;                        // a => true  / == tương đối
-var b = "2" != 2;                        // b => false
-
-var c = "2" === 2;                       // c => false  / === tuyệt đối
-var d = "2" !== 2;                       // d => true
-```
-### Strict equality ( `so sánh` )
-```js
-var a = 2 > 2;                           // a => false
-var b = 2 <= 2;                          // b => true
-var c = "2" >= 2;                        // c => true
-var d = 2 < 2;                           // d => false
-var e = 2 <= 2;                          // e => true
-var f = 'abc' < 'def'                    // f => true
-```
-### Logical ( `hợp lý` )
-```js
-var a = true && false;                   // a => false
-var b = true || false;                   // b => true
-var c = !true;                           // c => false
-```
-### Bitwise ( `số bit` )
-```js
-var a = 42 & 2                           // a =>          2  (AND)
-var b =  7 | 2                           // b =>          2  (OR)
-var c =  7 ^ 2                           // c =>          7  (OR)
-var d = ~8                               // d =>         -7  (NOT)
-var e =  1 << 3                          // e =>          8  (Shift left)
-var f =  8 >> 2                          // f =>          2  (Shift right)
-var g = -1 >>  2                         // g =>         -1
-var h = -1 >>> 2                         // h => 1073741823  (Shift right with zero fill)
-```
-### Assignment ( `chuyển đổi` )
-```js
-var a = 1, b = 0;
-a += b                                   // a = a + b
-a -= b                                   // a = a - b
-a *= b                                   // a = a * b
-a /= b                                   // a = a / b
-a %= b                                   // a = a % b
-a <<= b                                  // a = a << b
-a >>= b                                  // a = a >> b
-a >>>= b                                 // a = a >>> b
-a &= b                                   // a = a & b
-a |= b                                   // a = a | b
-a ^= b                                   // a = a ^ b
-```
-#### in array
-```js
-var a = [1,9,4];
-var b = (2 in a);                        // b => true (có 3 pt)
-var c = (9 in a);                        // c => false
-var d = (length in a);                   // d => true
-```
-#### typeof ( `xem kiểu` )
-```js
-var a = 3;
-var b = typeof a;                        // b => "number"
-var c = "";
-var d = typeof c;                        // d => "string"
-var e = true;
-var f = typeof e;                        // f => "boolean"
-```
-## Type conversions ( `loại chuyển đổi` )
-### Explicit ( `minh bạch` )
-```js
-// to Number
-var a = Number("10");                    // a => 10
-var b = Number(false);                   // b =>  0
-var c = parseInt("10", 10);              // c => 10
-var d = parseInt(10.2);                  // d => 10
-var e = parseFloat("10.2");              // e => 10.2
-// to String
-var a = String(false);                   // a => "false"
-var b = String(10);                      // b => "10"
-var c = String(10.2);                    // c => "10.2"
-var d = (10).toString();                 // d => "10"
-// to Boolean
-var a = Boolean(10);                     // a => true
-var b = Boolean(0);                      // b => false
-var c = Boolean(0.3);                    // c => true
-var d = Boolean("true");                 // d => true
-```
-### Implicit ( `ngầm` )
-```js
-// to Number
-var a = +"10";                           // a => 10
-var b = "10" >> 0;                       // b => 10
-var c = "10" * 1;                        // c => 10
-var d = ~~"10";                          // d => 10
-var e = "2" * "5";                       // e => 10 (both strings converts to number)
-// to String
-var a = 10 + "10";                       // a => "1010"
-var b = "10" + "10";                     // b => "1010"
-var c = 10 + " agents";                  // c => "10 agents"
-var d = 10 + 10 + " agents";             // d => "20 agents"
-// to Boolean
-var a = !!'morpheus';                    // a => true
-var b = !!'';                            // b => false
-var c = !!'0';                           // c => true
-var d = !!'1';                           // d => true
-```
-### Summary ( `Tóm lược` )
-```js
-Value                           String                     Number                                  Boolean
-
-undefined......................."undefined".................NaN.....................................false
-null............................"null"......................0.......................................false
-true............................"true"......................1............................................
-false..........................."false".....................0............................................
-"" (empty string)...........................................0.......................................false
-"1.2" (nonempty, numeric)...................................1.2.....................................true
-"one" (nonempty, non-numeric)...............................NaN.....................................true
-0..............................."0".................................................................false
--0.............................."0".................................................................false
-NaN............................."NaN"...............................................................false
-Infinity........................"Infinity"..........................................................true
--Infinity......................."-Infinity".........................................................true
-1 (finite, non-zero)............"1".................................................................true
-[] (empty array)................""...........................0.......................................true
-[9] (1 numeric elt)............."9"..........................9.......................................true
-['a'] (any other array).........use join() method............NaN.....................................true
-```
-## Statements ( `câu lệnh` )
-### if/else
-```js
-if (username == null) {                   // if username is null or undefined,
-  username = "Trinity";                   // define it
-}
-
-if (bulletCount === 1) {
-  bulletCount += 'bullet';
-} else {
-  bulletCount += 'bullets';
-}
-
-var bulletCount = (bulletCount === 1) ? "bullet" : "bullets";
-```
-### switch
-```js
-var quote;
-switch (quote) {
-  case 'Smith':
-    quote = 'Goodbye, Mr. Anderson...';
-    break;
-  case 'Neo':
-    quote = 'I know kung fu.';
-    break;
-  default:
-    quote = 'What is the Matrix?';
-    break;
+var name_array = [1,2,3];
+for (var i = 0; i < name_array.length; i++){
+    document.write(name_array[i]);
 }
 ```
-### loops
-```js
-for (var i = 0; i < 10; i++) {
-  doSomething();
-}
---------------
-var count = 0;
-while (count < 10) {
-  doSomething();
-  count++;
-}
---------------
-var count = 100;
-do {
-  doSomething();
-} while (--count > 0);
+- [Array Object Function](https://trello.com/c/JGtZNjLs/33-js-array-object-function-30)
+```vue
+array.valueOf()
+array.push()
+array.pop()
+array.shift()
+array.unshift()
+array.splice(position_add, num_element_remove, value1, value2, ...)
+array.sort()
+array.reverse()
+array_1.concat(array_2)
+array.slice(start, end)
 ```
-### for...in loops
-```js
-var a = [123, 456, 789];
-for (var i in a) {                        // DO NOT use with arrays
-  doSomething(a[i]);
-}
+- [Number Object](https://trello.com/c/qdhiQlai/34-js-number-object-31)
+- [Number Object Function](https://trello.com/c/pMyMfZrg/35-js-number-object-function-32)
+```vue
+Number()
+parseInt()
+parseFloat()
+toString()
+toFixed(n)
+toPrecision(n)
+valueOf()
 ```
-## Simple functions ( `Chức năng đơn giản` )
-```js
-function functionName(var1, var2, var3) { // no variable types
-  /*
-    Some code here
-  */
-  return returnVal;                       // optional (không bắt buộc)
-}
-
-function useArgs(var1, var2, var3) {
-  var a = arguments.length;               // array containing all the arguments (mảng chưa all đối số)
-  var result = "";
-  for (var i = 0; i < a; i++) {
-    result += " " + arguments[i];
-  }
-  return result;
-}
-
-// document.getElementById("variable-scope").innerHTML = myFunction(10, 4); 
-
-var b = useArgs("Déjà", "vu");             // b => " Déjà vu", var3 = undefined
+- [Date Object](https://trello.com/c/C07RqZRU/36-js-date-object-33)
+```vue
+new Date()
+new Date(dateString)
+        - year
+        - month
+        - day
+        - hours
+        - minutes
+        - seconds
+        - milliseconds
+        
+ISO   new Date("2014-11-20")
+Long  new Date("Mar 25 2015")
+Short new Date("03/25/2015")
+đầy đủ    Phải ghi đầy đủ hết
 ```
-## Variable scope ( `Phạm vi biến` )
-### Global vs local
-```js
-var name = "Andy";                         // not in a function => variable is global
-
-function foo() {
-  var lastName = "WACHOWSKI";              // inside a function => variable is local
-  return name + ' ' + lastname;            // can access global variable "name"
-}
-foo();
-
-var a = lastName;                          // ReferenceError lastName is not defined
-                                           // can not access local variable "lastName"
+- [Date Object Function](https://trello.com/c/fEPjquEY/37-js-date-object-function-34)
+```vue
+getDate() lấy ngày (1 - 31)
+getDay() lấy ngày trong tuần (0-6)
+getFullYear() lấy năm đầy đủ (YYYY)
+getYear() lấy năm 2 số cuối (YY)
+getHours() lấy số giờ (0 - 23)
+getMiliSeconds() lấy số mili giây (0 - 999)
+getMinutes() lấy số phút (0 - 59)
+getMonth() lấy tháng (0 - 11)
+getSeconds() lấy số giây (0 - 59)
+getTime() thời gian đã được convert sang dạng miliseconds.
+>>
+setDate() Thêm ngày (1 - 31)
+...
 ```
-### Do not forget var ( `đừng quên var` )
-```js
-var i = 1;
-function foo() {
-  var i = 3;
-}
-foo();
-var a = i;                                // a => 1
+- [Hàm typeof](https://trello.com/c/0Kj1fKad/38-js-hàm-typeof-35)
+- [BOM là gì?](https://trello.com/c/yrdLKCEJ/39-js-bom-là-gì-36)
+- [BOM Window](https://trello.com/c/nbvXKzip/40-js-bom-window-37)
+> Window là một đối tượng toàn cục và ở đâu trong website cũng có thể sử dụng được.
+```vue
+window.innerHeight
+window.innerWidth
+...
+window.open(url, name, options)
+windowObj.close()
+windowObj.moveTo(top, left)
+windowObj.resizeTo(width, height)
+```
+- [BOM Location](https://trello.com/c/JBD0GqIm/41-js-bom-location-38)
+> location : chuyên dùng xử lý URL của trang web
+```vue
+// Phương thức
+window.location
+window.location.reload(url)
+window.location.replace(url)
+window.location.href="url"
+window.location.assign(url)
+// Thuộc tính
+hash
+host
+hostname
+href
+origin
+pathname
+port
+search
+```
+- [BOM History](https://trello.com/c/R80gSkSR/42-js-bom-history-39)
+```vue
+window.history.length
+window.history.back()
+window.history.forward()
+window.history.go(-4)
+```
+- [BOM Cookie](https://trello.com/c/GLLLvPOi/43-js-bom-cookie-40)
+```vue
+document.cookie="website=freetuts.net; expires=Thu, 0 Dec 2015 12:00:00 UTC";
+```
+- [BOM Window Navigator](https://trello.com/c/8PUFCaiJ/44-js-bom-window-navigator-41)
+> Window Navigator: Để kiểm tra thông tin người dùng như trình duyệt, hệ điều hành, cookie ...
+```vue
+navigator.cookieEnabled
+navigator.appName & navigator.appCodeName
+navigator.product
+navigator.appVersion / navigator.userAgent
+navigator.platform
+navigator.language
+```
+- [BOM Screen](https://trello.com/c/fjIMtZji/45-js-bom-screen-42)
+```vue
+screen.width
+screen.height
+screen.availWidth
+screen.availHeight
+screen.colorDepth
+screen.pixelDepth
+```
+- [Object là gì?](https://trello.com/c/xmiQTwXR/46-js-object-là-gì-43)
+```vue
+new Object()
+{}
 
-var i = 1;
-function foo() {
-  i = 3;                                  // no var keyword !!! :-(
-  j = 4;                                  // no var keyword !!! :-(
-}
-foo();
-var a = i;                                // a => 3
-var b = j;                                // b => 4
+var Comment = {
+    title : "",
+    content : ""
+};
 ```
-## EX Javascript
-### EX in nhap
-```js
-<input type="text" id="nut" />
-<input type="button" value="click" onclick="xin_chao()" /> 
-
-function xin_chao()
-{
-    // document.getElementById("1").innerHTML=document.write("HAHA");
-    // document.getElementById("1").innerHTML=Date();
-    documen.getElemnetById('nut').value;
-}
-```
-### EX if/else
-```js
-<input type="button" value="chẵn lẻ" onclick="chan_le()" /> 
-
-function chan_le() {
-  var a=prompt("chương trình tìm số chẵn lẻ:","nhập");
-  if(a%2==0){
-    alert("số chẳn");
-  } else {
-    alert("số lẻ");
-  }
-  return result;
-}
-```
-### EX if ... else
-```js
-<input type="button" value="học lực" onclick="hoc_luc()" /> 
-
-function hoc_luc() {
-  var b=prompt("chương trình tính học lực:","nhập điểm");
-  if(b<5) {
-    alert("yếu");
-  } else if(b<=7) {
-    alert("trung bình");
-  } else if(b<=9) {
-    alert("khá");
-  } else {
-    alert("giỏi")
-  }
-  return result; 
-}
-```
-### EX swich case
-```js
-<input type="button" value="điểm số" onclick="diem_so()" /> 
-
-function diem_so() {
-  var a = 5;
-  switch(a) {
-    case 1:
-      alert("thi lai");
-      break;
-    case 2:
-      alert("hoc lai");
-      break;
-    default:
-      alert("123");
-      break;
-  }
-  return result;
-}
-```
-### EX for and do/while
-```js
-<input type="button" value="tính tích" onclick="tinh_tich()" /> 
-
-function tinh_tich() {
-  n=0;
-  do {
-  n=prompt("mời bạn nhập số vào đây:");
-  tich=1;
-  for(i=1;i<=n;i++)
-  {
-    if(i%2==0)
-    {
-      tich=tich*i;
-    }
-  }
-  alert(tich);
-  n=prompt("mời bạn tiếp tục nhấn 0 or no 124..: ");
-  }
-  while (n==0)
-  return result;
-}
-```
-### EX while
-```js
-<input type="button" value="tính tích2" onclick="tinh_tich2()" /> 
-
-function tinh_tich2() {
-  n=prompt("mời bạn nhập n vào đây: ");
-  tich=1;
-  i=1;
-  while (i<=n)
-  {
-    tich=tich*i;
-    i=i+2;
-  }
-  alert(tich); 
-}
-```
-### EX kiểm tra 
-```js
-<input type="button" value="kiểm tra" onclick="kiem_tra()" /> 
-
-function kiem_tra() {
-  a=prompt("nhập a: ");
-  b=prompt("nhập b: ");
-  c=prompt("nhập c: ");
-  iMax=a;
-  if (b>iMax) {
-    iMax=b;
-  }
-  if (c>iMax) {
-    iMax=c;
-  }
-  alert(iMax);
-}
-```
-### EX kiểm tra 2
-```js
-<input type="button" value="kiểm tra 2" onclick="kiem_tra2()" />   
-
-function kiem_tra2() {
-  n=prompt("nhập số lượng ss: ");
-  iMax=4;
-  for(i=1; i<=n; i++)
-  {
-    ss=prompt("nhập số ss: ")
-  if (ss>iMax) {
-    iMax=ss;
-  }
-  }
-  alert(iMax);
-}
-```
-### EX vẽ ô
-```js
-function hcn() {
-  cd=prompt("Mời bạn nhập chiều dài cho cạnh dài","nhập đây...");
-  cn=prompt("mời bạn nhập độ rộng cho cạnh ngắn","nhập đây...");
-  document.write('<table border="1">');
-  for(k=1;k<=cn;k++)
-  {
-    document.write('<tr>');
-    for (i=1; i<=cd; i++)
-    {
-      document.write('<td>');
-      document.write('*');
-      document.write('</td>');
-    }
-    document.write('</tr>');
-  }
-  document.write('</table >');
-}
-```
-### EX Neolab
-```js
-$(document).ready(function (){
-  for(var i=1;i<=100;i++, msg=""){
-    if (!(i%3)) msg+="Fizz"; 
-    if (!(i%5)) msg+="Buzz"; 
-    console.log(msg || i); 
-  }
-});
-
-// aa
-e.currentTarget : lấy yếu tố nghe thực hiện 1 sự kiện
-.textContent    : trả về nội dung văn bản
-eval()          : thực hiện 1 biểu thức
-indexOf('...')  : trả về vị trí xuất hiện đầu tiên của giá trị
-replace('x','y'): tháy x thành y
-```
+- [Thao tác với Object](https://trello.com/c/JK54CxsZ/47-js-thao-tác-với-object-44)
+- [Object Prototype](https://trello.com/c/f0FZSjaK/48-js-object-prototype-45)
+> Prototype : Tạo mới một hàm có chứa phương thức và thuộc tính của đối tượng
