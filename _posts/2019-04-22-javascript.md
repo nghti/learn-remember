@@ -17,7 +17,7 @@
 - [Vòng lặp while, do while](https://trello.com/c/pDQ9C9GU/16-js-v%C3%B2ng-l%E1%BA%B7p-while-do-while-13)
 - [break, continue](https://trello.com/c/qo6IcEVI/17-js-l%E1%BB%87nh-break-continue-14)
 - [Sự kiện trong javascript](https://trello.com/c/NsMWxLHg/18-js-sự-kiện-event-là-gì-15)
-```js
+```html
 STT	Event Name	    Description
 1	onclick             Xảy ra khi click vào thẻ HTML
 2	ondbclick	    Xảy ra khi double click vào thẻ HTML
@@ -132,6 +132,7 @@ toPrecision(n)
 valueOf()
 ```
 - [Date Object](https://trello.com/c/C07RqZRU/36-js-date-object-33)
+
 ```js
 new Date()
 new Date(dateString)
