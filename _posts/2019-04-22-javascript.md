@@ -102,7 +102,6 @@ var name_array = new Array(1,2,3)
 var name_array = [1,2,3]
 alert(name_array[0])
 array.join()
-
 var name_array = [1,2,3];
 for (var i = 0; i < name_array.length; i++){
     document.write(name_array[i]);
