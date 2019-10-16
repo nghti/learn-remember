@@ -132,7 +132,6 @@ toPrecision(n)
 valueOf()
 ```
 - [Date Object](https://trello.com/c/C07RqZRU/36-js-date-object-33)
-
 ```js
 new Date()
 new Date(dateString)
@@ -149,7 +148,6 @@ Long  new Date("Mar 25 2015")
 Short new Date("03/25/2015")
 đầy đủ    Phải ghi đầy đủ hết
 ```
-
 - [Date Object Function](https://trello.com/c/fEPjquEY/37-js-date-object-function-34)
 ```javascript
 getDate() lấy ngày (1 - 31)
@@ -214,7 +212,6 @@ document.cookie="website=freetuts.net; expires=Thu, 0 Dec 2015 12:00:00 UTC";
 - [BOM Window Navigator](https://trello.com/c/8PUFCaiJ/44-js-bom-window-navigator-41)
 > Window Navigator: Để kiểm tra thông tin người dùng như trình duyệt, hệ điều hành, cookie ...
 
-
 ```javascript
 navigator.cookieEnabled
 navigator.appName & navigator.appCodeName
@@ -233,8 +230,7 @@ screen.colorDepth
 screen.pixelDepth
 ```
 - [Object là gì?](https://trello.com/c/xmiQTwXR/46-js-object-là-gì-43)
-
-```html
+```js
 var Comment = new Object()
 var Comment = {}
 var Comment = {
