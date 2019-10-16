@@ -132,6 +132,7 @@ toPrecision(n)
 valueOf()
 ```
 - [Date Object](https://trello.com/c/C07RqZRU/36-js-date-object-33)
+
 ```html
 new Date()
 new Date(dateString)
@@ -148,6 +149,7 @@ Long  new Date("Mar 25 2015")
 Short new Date("03/25/2015")
 đầy đủ    Phải ghi đầy đủ hết
 ```
+
 - [Date Object Function](https://trello.com/c/fEPjquEY/37-js-date-object-function-34)
 ```javascript
 getDate() lấy ngày (1 - 31)
