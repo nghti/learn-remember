@@ -132,7 +132,7 @@ toPrecision(n)
 valueOf()
 ```
 - [Date Object](https://trello.com/c/C07RqZRU/36-js-date-object-33)
-```javascript
+```html
 new Date()
 new Date(dateString)
         - year
