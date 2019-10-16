@@ -133,7 +133,7 @@ valueOf()
 ```
 - [Date Object](https://trello.com/c/C07RqZRU/36-js-date-object-33)
 
-```js
+```html
 new Date()
 new Date(dateString)
         - year
