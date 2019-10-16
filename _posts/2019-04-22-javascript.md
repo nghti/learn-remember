@@ -212,6 +212,7 @@ document.cookie="website=freetuts.net; expires=Thu, 0 Dec 2015 12:00:00 UTC";
 - [BOM Window Navigator](https://trello.com/c/8PUFCaiJ/44-js-bom-window-navigator-41)
 > Window Navigator: Để kiểm tra thông tin người dùng như trình duyệt, hệ điều hành, cookie ...
 
+
 ```javascript
 navigator.cookieEnabled
 navigator.appName & navigator.appCodeName
