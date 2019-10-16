@@ -10,7 +10,7 @@
     + Nhớ độ ưu tiên của toán tử
 - [if/else](https://trello.com/c/lGeiSt5C/8-js-l%E1%BB%87nh-if-else-5)
 - [switch, case](https://trello.com/c/2BwQc2qC/9-js-l%E1%BB%87nh-switch-case-6)
-- [functions là gi](https://trello.com/c/SduJ3Qwi/10-js-function-7)
+- [functions là gi?](https://trello.com/c/SduJ3Qwi/10-js-function-7)
 - [Global vs local](https://trello.com/c/OAP3LT1j/11-js-biến-toàn-cục-và-cục-bộ-8)
 - [setTimeout, setInterval](https://trello.com/c/PxctX5sT/14-js-settimeout-setinterval-11)
 - [Vòng lặp for](https://trello.com/c/gWdye63t/15-js-vòng-lặp-for-12)
@@ -132,6 +132,7 @@ toPrecision(n)
 valueOf()
 ```
 - [Date Object](https://trello.com/c/C07RqZRU/36-js-date-object-33)
+
 ```js
 new Date()
 new Date(dateString)
@@ -148,6 +149,7 @@ Long  new Date("Mar 25 2015")
 Short new Date("03/25/2015")
 đầy đủ    Phải ghi đầy đủ hết
 ```
+
 - [Date Object Function](https://trello.com/c/fEPjquEY/37-js-date-object-function-34)
 ```javascript
 getDate() lấy ngày (1 - 31)
