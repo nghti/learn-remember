@@ -230,7 +230,8 @@ screen.colorDepth
 screen.pixelDepth
 ```
 - [Object là gì?](https://trello.com/c/xmiQTwXR/46-js-object-là-gì-43)
-```javascript
+
+```html
 var Comment = new Object()
 var Comment = {}
 var Comment = {
