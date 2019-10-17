@@ -12,11 +12,11 @@
 - [switch, case](https://trello.com/c/2BwQc2qC/9-js-l%E1%BB%87nh-switch-case-6)
 - [functions là gi?](https://trello.com/c/SduJ3Qwi/10-js-function-7)
 - [Global vs local](https://trello.com/c/OAP3LT1j/11-js-biến-toàn-cục-và-cục-bộ-8)
-- [setTimeout, setInterval](https://trello.com/c/PxctX5sT/14-js-settimeout-setinterval-11)
+- #### [setTimeout, setInterval](https://trello.com/c/PxctX5sT/14-js-settimeout-setinterval-11)
 - [Vòng lặp for](https://trello.com/c/gWdye63t/15-js-vòng-lặp-for-12)
 - [Vòng lặp while, do while](https://trello.com/c/pDQ9C9GU/16-js-v%C3%B2ng-l%E1%BA%B7p-while-do-while-13)
 - [break, continue](https://trello.com/c/qo6IcEVI/17-js-l%E1%BB%87nh-break-continue-14)
-- [Sự kiện trong javascript](https://trello.com/c/NsMWxLHg/18-js-sự-kiện-event-là-gì-15)
+- #### [Sự kiện trong javascript](https://trello.com/c/NsMWxLHg/18-js-sự-kiện-event-là-gì-15)
 ```html
 STT	Event Name	    Description
 1	onclick             Xảy ra khi click vào thẻ HTML
@@ -36,13 +36,13 @@ STT	Event Name	    Description
 16	oncut	            Xảy ra khi bạn cắt nội dung của thẻ
 17	onpaste	            Xảy ra khi bạn dán nội dung vào thẻ
 ```
-- [Thêm sự kiện bằng javascrip & for](https://trello.com/c/sFHdiH08/19-js-thêm-sự-kiện-event-16)
+- #### [Thêm sự kiện bằng javascrip & for](https://trello.com/c/sFHdiH08/19-js-thêm-sự-kiện-event-16)
 - [return true/false](https://trello.com/c/JGaACbVx/20-js-return-true-false-17)
 - [sự kiện onload](https://trello.com/c/LxcgVCHs/21-js-sự-kiện-onload-18)
-- [addEventListener](https://trello.com/c/VK7T4Qxn/22-js-hàm-addeventlistener-19)
+- #### [addEventListener](https://trello.com/c/VK7T4Qxn/22-js-hàm-addeventlistener-19)
 - [removeEventListener](https://trello.com/c/0C6JqmyI/23-js-hàm-removeeventlistener-20)
 - [DOM là gì?](https://trello.com/c/mHZzhQUp/24-js-dom-là-gì-21)
-- [DOM Element](https://trello.com/c/qOtlzmLX/25-js-dom-element-22)
+- #### [DOM Element](https://trello.com/c/qOtlzmLX/25-js-dom-element-22)
 ```javascript
 var element = document.getElementById('website')
 document.getElementsByTagName('input');
@@ -51,7 +51,7 @@ document.querySelectorAll("div input.website"
 element.value
 element[0].value
 ```
-- [DOM HTML](https://trello.com/c/PpvIPtcC/26-js-dom-html-23)
+- #### [DOM HTML](https://trello.com/c/PpvIPtcC/26-js-dom-html-23)
 ```javascript
 var html = document.getElementById("content")
 html.innerHTML
@@ -61,13 +61,13 @@ html.attributeName = "new value"
 >>
 html.type = "button"
 ```
-- [DOM CSS](https://trello.com/c/qCl10JA9/27-js-dom-css-24)
+- #### [DOM CSS](https://trello.com/c/qCl10JA9/27-js-dom-css-24)
 ```javascript
 document.getElementById("object").style.cssName = 'something';
 >>
 document.getElementById("object").style.background = 'red';
 ```
-- [DOM Nodes](https://trello.com/c/L0Wvf20O/28-js-dom-nodes-25)
+- #### [DOM Nodes](https://trello.com/c/L0Wvf20O/28-js-dom-nodes-25)
 ```javascript
 document.createElement()
 document.createTextNode()
