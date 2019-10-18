@@ -17,6 +17,7 @@
 - [Vòng lặp while, do while](https://trello.com/c/pDQ9C9GU/16-js-v%C3%B2ng-l%E1%BA%B7p-while-do-while-13)
 - [break, continue](https://trello.com/c/qo6IcEVI/17-js-l%E1%BB%87nh-break-continue-14)
 - #### [Sự kiện trong javascript](https://trello.com/c/NsMWxLHg/18-js-sự-kiện-event-là-gì-15)
+
 ```html
 STT	Event Name	    Description
 1	onclick             Xảy ra khi click vào thẻ HTML
@@ -36,18 +37,29 @@ STT	Event Name	    Description
 16	oncut	            Xảy ra khi bạn cắt nội dung của thẻ
 17	onpaste	            Xảy ra khi bạn dán nội dung vào thẻ
 ```
+
 - #### [Thêm sự kiện bằng javascrip & for](https://trello.com/c/sFHdiH08/19-js-thêm-sự-kiện-event-16)
+
+```javascript
+elementObject.eventName  = function(){
+    // do something
+};
+```
+
 - [return true/false](https://trello.com/c/JGaACbVx/20-js-return-true-false-17)
 - [sự kiện onload](https://trello.com/c/LxcgVCHs/21-js-sự-kiện-onload-18)
 - #### [addEventListener](https://trello.com/c/VK7T4Qxn/22-js-hàm-addeventlistener-19)
+
 ```javascript
 elementObject.addEventListener('eventName', function(e){
     // do something
 });
 ```
+
 - [removeEventListener](https://trello.com/c/0C6JqmyI/23-js-hàm-removeeventlistener-20)
 - [DOM là gì?](https://trello.com/c/mHZzhQUp/24-js-dom-là-gì-21)
 - #### [DOM Element](https://trello.com/c/qOtlzmLX/25-js-dom-element-22)
+
 ```javascript
 var element = document.getElementById('website')
 document.getElementsByTagName('input');
@@ -56,7 +68,9 @@ document.querySelectorAll("div input.website"
 element.value
 element[0].value
 ```
+
 - #### [DOM HTML](https://trello.com/c/PpvIPtcC/26-js-dom-html-23)
+
 ```javascript
 var html = document.getElementById("content")
 html.innerHTML
@@ -66,13 +80,17 @@ html.attributeName = "new value"
 >>
 html.type = "button"
 ```
+
 - #### [DOM CSS](https://trello.com/c/qCl10JA9/27-js-dom-css-24)
+
 ```javascript
 document.getElementById("object").style.cssName = 'something';
 >>
 document.getElementById("object").style.background = 'red';
 ```
+
 - #### [DOM Nodes](https://trello.com/c/L0Wvf20O/28-js-dom-nodes-25)
+
 ```javascript
 document.createElement('h2')
 document.createTextNode('text')
@@ -81,12 +99,16 @@ Node.insertBefore(node_insert, node_child)
 Node.removeChild(node_remove)
 Node.replaceChild(node_new, node_replace)
 ```
+
 - [String Object](https://trello.com/c/LTxZALUI/30-js-string-object-27)
+
 ```javascript
 number.toString()
 typeof number
 ```
+
 - #### [String Object Function](https://trello.com/c/mNFplg4v/31-js-string-object-function-28)
+
 ```javascript
 String.indexOf(str)                     // Tìm vị trí ký tự
 String.lastIndexOf(str)                 // Như trên nhưng tìm con cuối cùng
@@ -104,7 +126,9 @@ String.concat('add')                    // Nối thêm chuỗi
 String.charAt(4)                        // Tìm vị trí của số
 String.split('/')                       // Chuyển chuỗi sang mảng
 ```
+
 - #### [Array Object](https://trello.com/c/pffrZkNv/32-js-array-object-29)
+
 ```javascript
 var name_array = new Array(1,2,3)
 var name_array = [1,2,3]
@@ -117,7 +141,9 @@ for (var i = 0; i < name_array.length; i++){
     document.write(name_array[i]);
 }
 ```
+
 - #### [Array Object Function](https://trello.com/c/JGtZNjLs/33-js-array-object-function-30)
+
 ```javascript
 array.valueOf()                         // In ra mảng vậy thôi
 
@@ -132,8 +158,10 @@ array.reverse()                         // Đảo ngược lại vị trí
 array_1.concat(array_2)                 // Nối 2 mảng lại
 array.slice(start, end)                 // Lấy số PT trong mảng
 ```
+
 - [Number Object](https://trello.com/c/qdhiQlai/34-js-number-object-31)
 - #### [Number Object Function](https://trello.com/c/pMyMfZrg/35-js-number-object-function-32)
+
 ```javascript
 Number(String_so)                       // Chuyển sang kiểu number
 parseInt(String_so_dau)                 // Như Number nhưng chỉ lấy số đầu bỏ string
@@ -143,6 +171,7 @@ so.toFixed(n)                           // Làm tròn n số lẻ
 so.toPrecision(n)                       // Lấy n số lẻ
 valueOf()                               // Lấy giá trị gi đó
 ```
+
 - #### [Date Object](https://trello.com/c/C07RqZRU/36-js-date-object-33)
 
 ```html
@@ -163,6 +192,7 @@ Short new Date("03/25/2015")
 ```
 
 - #### [Date Object Function](https://trello.com/c/fEPjquEY/37-js-date-object-function-34)
+
 ```javascript
 new Date().getDate()                    // lấy ngày (1 - 31)
 new Date().getDay()                     // lấy ngày trong tuần (0-6)
@@ -178,6 +208,7 @@ new Date().getTime()                    // thời gian đã được convert san
 new Date().setDate(20)                  // Thêm ngày 20
 ...
 ```
+
 - [Hàm typeof](https://trello.com/c/0Kj1fKad/38-js-hàm-typeof-35)
 - [BOM là gì?](https://trello.com/c/yrdLKCEJ/39-js-bom-là-gì-36)
 - #### [BOM Window](https://trello.com/c/nbvXKzip/40-js-bom-window-37)
@@ -192,6 +223,7 @@ windowObj.close()
 windowObj.moveTo(top, left)
 windowObj.resizeTo(width, height)
 ```
+
 - #### [BOM Location](https://trello.com/c/JBD0GqIm/41-js-bom-location-38)
 > location : chuyên dùng xử lý URL của trang web
 
@@ -215,17 +247,22 @@ hash                                    // ( #12 )
 port                                    // ( 8080 )
 search                                  // lấy phần query string của URL
 ```
+
 - #### [BOM History](https://trello.com/c/R80gSkSR/42-js-bom-history-39)
+
 ```javascript
 window.history.length                   // Số trang đã lưu trong history 
 window.history.back()                   // Trở lại trang trước
 window.history.forward()                // Đi tới trang tiếp sai khi đã back()
 window.history.go(-4)                   // Trở lại trang cách đây -4 lần
 ```
+
 - #### [BOM Cookie](https://trello.com/c/GLLLvPOi/43-js-bom-cookie-40)
+
 ```javascript
 document.cookie="website=freetuts.net; expires=Thu, 0 Dec 2015 12:00:00 UTC";
 ```
+
 - [BOM Window Navigator](https://trello.com/c/8PUFCaiJ/44-js-bom-window-navigator-41)
 > Window Navigator: Để kiểm tra thông tin người dùng như trình duyệt, hệ điều hành, cookie ...
 
@@ -237,7 +274,9 @@ navigator.appVersion / navigator.userAgent
 navigator.platform
 navigator.language
 ```
+
 - [BOM Screen](https://trello.com/c/fjIMtZji/45-js-bom-screen-42)
+
 ```javascript
 screen.width
 screen.height
@@ -246,7 +285,9 @@ screen.availHeight
 screen.colorDepth
 screen.pixelDepth
 ```
+
 - #### [Object là gì?](https://trello.com/c/xmiQTwXR/46-js-object-là-gì-43)
+
 ```js
 var Comment = new Object()
 var Comment = {}
