@@ -1,7 +1,7 @@
 - [Có 3 cách đặt thẻ script](https://trello.com/c/5sm3mWW3/4-js-javascript-l%C3%A0-g%C3%AC-1)
 - [Khai báo biến sao cho đúng](https://trello.com/c/tr412o82/5-js-khai-b%C3%A1o-bi%E1%BA%BFn-2)
 - [Đối tượng hiển thị trình duyệt là gi?](https://trello.com/c/6sVHyEg7/6-js-h%C3%A0m-alert-confirm-v%C3%A0-prompt-3)
-- [Các toán tử cần nhớ](https://trello.com/c/NTktUUCX/7-js-các-toán-tử-4)
+- #### [Các toán tử cần nhớ](https://trello.com/c/NTktUUCX/7-js-các-toán-tử-4)
     + toán tử toán học
     + toán tử gán
     + toán tử quan hệ
@@ -10,7 +10,15 @@
     + Nhớ độ ưu tiên của toán tử
 - [if/else](https://trello.com/c/lGeiSt5C/8-js-l%E1%BB%87nh-if-else-5)
 - [switch, case](https://trello.com/c/2BwQc2qC/9-js-l%E1%BB%87nh-switch-case-6)
-- [functions là gi?](https://trello.com/c/SduJ3Qwi/10-js-function-7)
+- #### [functions là gi?](https://trello.com/c/SduJ3Qwi/10-js-function-7)
+
+```javascript
+function name_of_function(var1, var2, var3, ...)
+{
+    // Some code
+}
+```
+
 - [Global vs local](https://trello.com/c/OAP3LT1j/11-js-biến-toàn-cục-và-cục-bộ-8)
 - #### [setTimeout(function, time), setInterval(function, time)](https://trello.com/c/PxctX5sT/14-js-settimeout-setinterval-11)
 - [Vòng lặp for](https://trello.com/c/gWdye63t/15-js-vòng-lặp-for-12)
@@ -51,7 +59,7 @@ elementObject.eventName  = function(){
 - #### [addEventListener](https://trello.com/c/VK7T4Qxn/22-js-hàm-addeventlistener-19)
 
 ```javascript
-elementObject.addEventListener('eventName', function(e){
+elementObject.addEventListener('event_not_on', function(e){
     // do something
 });
 ```
@@ -124,7 +132,7 @@ String.toLowerCase()                    // In thường all
 
 String.concat('add')                    // Nối thêm chuỗi
 String.charAt(4)                        // Tìm vị trí của số
-String.split('/')                       // Chuyển chuỗi sang mảng
+String.split()                          // Chuyển chuỗi sang mảng
 ```
 
 - #### [Array Object](https://trello.com/c/pffrZkNv/32-js-array-object-29)
