@@ -54,7 +54,7 @@ elementObject.eventName  = function(){
 };
 ```
 
-- [return true/false](https://trello.com/c/JGaACbVx/20-js-return-true-false-17)
+- #### [return true/false](https://trello.com/c/JGaACbVx/20-js-return-true-false-17)
 - [sự kiện onload](https://trello.com/c/LxcgVCHs/21-js-sự-kiện-onload-18)
 - #### [addEventListener](https://trello.com/c/VK7T4Qxn/22-js-hàm-addeventlistener-19)
 
@@ -115,7 +115,7 @@ number.toString()
 typeof number
 ```
 
-- #### [String Object Function](https://trello.com/c/mNFplg4v/31-js-string-object-function-28)
+- ## [String Object Function](https://trello.com/c/mNFplg4v/31-js-string-object-function-28)
 
 ```javascript
 String.indexOf(str)                     // Tìm vị trí ký tự
@@ -150,7 +150,7 @@ for (var i = 0; i < name_array.length; i++){
 }
 ```
 
-- #### [Array Object Function](https://trello.com/c/JGtZNjLs/33-js-array-object-function-30)
+- ## [Array Object Function](https://trello.com/c/JGtZNjLs/33-js-array-object-function-30)
 
 ```javascript
 array.valueOf()                         // In ra mảng vậy thôi
@@ -168,7 +168,7 @@ array.slice(start, end)                 // Lấy số PT trong mảng
 ```
 
 - [Number Object](https://trello.com/c/qdhiQlai/34-js-number-object-31)
-- #### [Number Object Function](https://trello.com/c/pMyMfZrg/35-js-number-object-function-32)
+- ## [Number Object Function](https://trello.com/c/pMyMfZrg/35-js-number-object-function-32)
 
 ```javascript
 Number(String_so)                       // Chuyển sang kiểu number
