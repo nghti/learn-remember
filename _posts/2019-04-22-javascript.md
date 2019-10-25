@@ -1,7 +1,7 @@
 - [Có 3 cách đặt thẻ script](https://trello.com/c/5sm3mWW3/4-js-javascript-l%C3%A0-g%C3%AC-1)
 - [Khai báo biến sao cho đúng](https://trello.com/c/tr412o82/5-js-khai-b%C3%A1o-bi%E1%BA%BFn-2)
 - [Đối tượng hiển thị trình duyệt là gi?](https://trello.com/c/6sVHyEg7/6-js-h%C3%A0m-alert-confirm-v%C3%A0-prompt-3)
-- #### [Các toán tử cần nhớ](https://trello.com/c/NTktUUCX/7-js-các-toán-tử-4)
+- [Các toán tử cần nhớ](https://trello.com/c/NTktUUCX/7-js-các-toán-tử-4)
     + toán tử toán học
     + toán tử gán
     + toán tử quan hệ
@@ -10,7 +10,7 @@
     + Nhớ độ ưu tiên của toán tử
 - [if/else](https://trello.com/c/lGeiSt5C/8-js-l%E1%BB%87nh-if-else-5)
 - [switch, case](https://trello.com/c/2BwQc2qC/9-js-l%E1%BB%87nh-switch-case-6)
-- #### [functions là gi?](https://trello.com/c/SduJ3Qwi/10-js-function-7)
+- [functions là gi?](https://trello.com/c/SduJ3Qwi/10-js-function-7)
 
 ```javascript
 function name_of_function(var1, var2, var3, ...)
@@ -20,11 +20,11 @@ function name_of_function(var1, var2, var3, ...)
 ```
 
 - [Global vs local](https://trello.com/c/OAP3LT1j/11-js-biến-toàn-cục-và-cục-bộ-8)
-- #### [setTimeout(function, time), setInterval(function, time)](https://trello.com/c/PxctX5sT/14-js-settimeout-setinterval-11)
+- [setTimeout(function, time), setInterval(function, time)](https://trello.com/c/PxctX5sT/14-js-settimeout-setinterval-11)
 - [Vòng lặp for](https://trello.com/c/gWdye63t/15-js-vòng-lặp-for-12)
 - [Vòng lặp while, do while](https://trello.com/c/pDQ9C9GU/16-js-v%C3%B2ng-l%E1%BA%B7p-while-do-while-13)
 - [break, continue](https://trello.com/c/qo6IcEVI/17-js-l%E1%BB%87nh-break-continue-14)
-- #### [Sự kiện trong javascript](https://trello.com/c/NsMWxLHg/18-js-sự-kiện-event-là-gì-15)
+- ## [Sự kiện trong javascript](https://trello.com/c/NsMWxLHg/18-js-sự-kiện-event-là-gì-15)
 
 ```html
 STT	Event Name	    Description
@@ -46,7 +46,7 @@ STT	Event Name	    Description
 17	onpaste	            Xảy ra khi bạn dán nội dung vào thẻ
 ```
 
-- #### [Thêm sự kiện bằng javascrip & for](https://trello.com/c/sFHdiH08/19-js-thêm-sự-kiện-event-16)
+- [Thêm sự kiện bằng javascrip & for](https://trello.com/c/sFHdiH08/19-js-thêm-sự-kiện-event-16)
 
 ```javascript
 elementObject.eventName  = function(){
@@ -54,9 +54,9 @@ elementObject.eventName  = function(){
 };
 ```
 
-- #### [return true/false](https://trello.com/c/JGaACbVx/20-js-return-true-false-17)
+- ## [return true/false](https://trello.com/c/JGaACbVx/20-js-return-true-false-17)
 - [sự kiện onload](https://trello.com/c/LxcgVCHs/21-js-sự-kiện-onload-18)
-- #### [addEventListener](https://trello.com/c/VK7T4Qxn/22-js-hàm-addeventlistener-19)
+- [addEventListener](https://trello.com/c/VK7T4Qxn/22-js-hàm-addeventlistener-19)
 
 ```javascript
 elementObject.addEventListener('event_not_on', function(e){
@@ -66,7 +66,7 @@ elementObject.addEventListener('event_not_on', function(e){
 
 - [removeEventListener](https://trello.com/c/0C6JqmyI/23-js-hàm-removeeventlistener-20)
 - [DOM là gì?](https://trello.com/c/mHZzhQUp/24-js-dom-là-gì-21)
-- #### [DOM Element](https://trello.com/c/qOtlzmLX/25-js-dom-element-22)
+- [DOM Element](https://trello.com/c/qOtlzmLX/25-js-dom-element-22)
 
 ```javascript
 var element = document.getElementById('website')
@@ -77,7 +77,7 @@ element.value
 element[0].value
 ```
 
-- #### [DOM HTML](https://trello.com/c/PpvIPtcC/26-js-dom-html-23)
+- [DOM HTML](https://trello.com/c/PpvIPtcC/26-js-dom-html-23)
 
 ```javascript
 var html = document.getElementById("content")
@@ -89,7 +89,7 @@ html.attributeName = "new value"
 html.type = "button"
 ```
 
-- #### [DOM CSS](https://trello.com/c/qCl10JA9/27-js-dom-css-24)
+- [DOM CSS](https://trello.com/c/qCl10JA9/27-js-dom-css-24)
 
 ```javascript
 document.getElementById("object").style.cssName = 'something';
@@ -97,7 +97,7 @@ document.getElementById("object").style.cssName = 'something';
 document.getElementById("object").style.background = 'red';
 ```
 
-- #### [DOM Nodes](https://trello.com/c/L0Wvf20O/28-js-dom-nodes-25)
+- ## [DOM Nodes](https://trello.com/c/L0Wvf20O/28-js-dom-nodes-25)
 
 ```javascript
 document.createElement('h2')
@@ -135,7 +135,7 @@ String.charAt(4)                        // Tìm vị trí của số
 String.split()                          // Chuyển chuỗi sang mảng
 ```
 
-- #### [Array Object](https://trello.com/c/pffrZkNv/32-js-array-object-29)
+- ## [Array Object](https://trello.com/c/pffrZkNv/32-js-array-object-29)
 
 ```javascript
 var name_array = new Array(1,2,3)
@@ -199,7 +199,7 @@ Short new Date("03/25/2015")
 đầy đủ    Phải ghi đầy đủ hết
 ```
 
-- #### [Date Object Function](https://trello.com/c/fEPjquEY/37-js-date-object-function-34)
+- ## [Date Object Function](https://trello.com/c/fEPjquEY/37-js-date-object-function-34)
 
 ```javascript
 new Date().getDate()                    // lấy ngày (1 - 31)
@@ -219,7 +219,7 @@ new Date().setDate(20)                  // Thêm ngày 20
 
 - [Hàm typeof](https://trello.com/c/0Kj1fKad/38-js-hàm-typeof-35)
 - [BOM là gì?](https://trello.com/c/yrdLKCEJ/39-js-bom-là-gì-36)
-- #### [BOM Window](https://trello.com/c/nbvXKzip/40-js-bom-window-37)
+- ## [BOM Window](https://trello.com/c/nbvXKzip/40-js-bom-window-37)
 > Window là một đối tượng toàn cục và ở đâu trong website cũng có thể sử dụng được.
 
 ```javascript
@@ -232,7 +232,7 @@ windowObj.moveTo(top, left)
 windowObj.resizeTo(width, height)
 ```
 
-- #### [BOM Location](https://trello.com/c/JBD0GqIm/41-js-bom-location-38)
+- ## [BOM Location](https://trello.com/c/JBD0GqIm/41-js-bom-location-38)
 > location : chuyên dùng xử lý URL của trang web
 
 ```javascript
@@ -256,7 +256,7 @@ port                                    // ( 8080 )
 search                                  // lấy phần query string của URL
 ```
 
-- #### [BOM History](https://trello.com/c/R80gSkSR/42-js-bom-history-39)
+- ## [BOM History](https://trello.com/c/R80gSkSR/42-js-bom-history-39)
 
 ```javascript
 window.history.length                   // Số trang đã lưu trong history 
@@ -265,11 +265,7 @@ window.history.forward()                // Đi tới trang tiếp sai khi đã b
 window.history.go(-4)                   // Trở lại trang cách đây -4 lần
 ```
 
-- #### [BOM Cookie](https://trello.com/c/GLLLvPOi/43-js-bom-cookie-40)
-
-```javascript
-document.cookie="website=freetuts.net; expires=Thu, 0 Dec 2015 12:00:00 UTC";
-```
+- [BOM Cookie](https://trello.com/c/GLLLvPOi/43-js-bom-cookie-40)
 
 - [BOM Window Navigator](https://trello.com/c/8PUFCaiJ/44-js-bom-window-navigator-41)
 > Window Navigator: Để kiểm tra thông tin người dùng như trình duyệt, hệ điều hành, cookie ...
@@ -294,7 +290,7 @@ screen.colorDepth
 screen.pixelDepth
 ```
 
-- #### [Object là gì?](https://trello.com/c/xmiQTwXR/46-js-object-là-gì-43)
+- ## [Object là gì?](https://trello.com/c/xmiQTwXR/46-js-object-là-gì-43)
 
 ```js
 var Comment = new Object()
