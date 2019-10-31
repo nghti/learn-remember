@@ -165,6 +165,13 @@ array.sort()                            // Sắp xếp lại theo alpha
 array.reverse()                         // Đảo ngược lại vị trí
 array_1.concat(array_2)                 // Nối 2 mảng lại
 array.slice(start, end)                 // Lấy số PT trong mảng
+
+MORE
+array.some('dk')                        // Chạy qua mảng thực hiện chức năng nào đó
+array.indexOf('html')                   // Tìm value trả ra key
+array.lastIndexOf()
+Array.isArray('array')                  // Kiểm tra đối tượng phải mảng ko
+
 ```
 
 - [Number Object](https://trello.com/c/qdhiQlai/34-js-number-object-31)
