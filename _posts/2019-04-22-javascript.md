@@ -127,13 +127,20 @@ String.substring(start, end)            // Như trên nhưng ko âm
 String.substr(start, length)            // Cắt bao nhiêu chữ 
 
 String.replace(str_find, str_replace)   // Tìm kiếm và lặp chuỗi
-String.toUpperCase()                    // In hoa all
-String.toLowerCase()                    // In thường all
 
 String.concat('add')                    // Nối thêm chuỗi
 String.charAt(4)                        // Tìm vị trí của số
 String.split()                          // Chuyển chuỗi sang mảng
+
+String.trim()                           // Loại bỏ span đầu và cuối
+String.startsWith('con')                // Bắt đầu bằng con ko
+String.endsWith('con')                  // Kết thúc bằng con ko
+String.includes('con')                  // có con ko
+
 ```
+
+~~String.toUpperCase(), String.toLowerCase(), String.fromCharCode()
+string.repeat(), string.match(), string.localeCompare(),~~
 
 - ## [Array Object](https://trello.com/c/pffrZkNv/32-js-array-object-29)
 
@@ -143,17 +150,12 @@ var name_array = [1,2,3]
 
 name_array[0]                           // Tìm phần tử trong mảng
 name_array.join('-')                    // Hiển thị PT ra ngoài theo kiểu chuổi
-
-var name_array = [1,2,3];
-for (var i = 0; i < name_array.length; i++){
-    document.write(name_array[i]);
-}
 ```
 
 - ## [Array Object Function](https://trello.com/c/JGtZNjLs/33-js-array-object-function-30)
 
 ```javascript
-array.valueOf()                         // In ra mảng vậy thôi
+array.valueOf()                         // Trả về giá trị gốc cảu mảng
 
 array.push('add')                       // Thêm PT vào cuối mảng
 array.unshift()                         // Thêm PT vào đầu mảng
@@ -166,26 +168,36 @@ array.reverse()                         // Đảo ngược lại vị trí
 array_1.concat(array_2)                 // Nối 2 mảng lại
 array.slice(start, end)                 // Lấy số PT trong mảng
 
-MORE
-array.some('dk')                        // Chạy qua mảng thực hiện chức năng nào đó
-array.indexOf('html')                   // Tìm value trả ra key
-array.lastIndexOf()
 Array.isArray('array')                  // Kiểm tra đối tượng phải mảng ko
+array.some(fun)                         // Chạy qua mảng để kiểm tra or thực hiện chức năng nào đó
+array.every(fun)                        // Chạy qua mảng để kiểm tra or thực hiện chức năng nào đó
 
+array.forEach(fun)                      // Chạy qua mảng thực hiện func nào đó
+array.map(func)                         // Chạy qua mảng kiểu forEach() cho ra mảng mới
+array.filter(func)                      // lọc các phần tử trong mảng ra mảng mới
+
+array.find(fucn)                        // Trả về value đầu tiên thỏa mãn điều kiện
+array.findIndex()                       // Trả về key đầu tiên thỏa mãn điều kiện
+array.indexOf('html')                   // Tìm value trả ra key
+array.lastIndexOf()                     // Tìm value trả ra key cuối
+array.toString()                        // chuổi sang mảng cách nhau dấu ,
 ```
+
+~~array.fill(), array.copyWithin(), array.reduce(), array.reduceRight()~~
 
 - [Number Object](https://trello.com/c/qdhiQlai/34-js-number-object-31)
 - ## [Number Object Function](https://trello.com/c/pMyMfZrg/35-js-number-object-function-32)
 
 ```javascript
+valueOf()                               // Trả vê giá trị gốc của nó
 Number(String_so)                       // Chuyển sang kiểu number
 parseInt(String_so_dau)                 // Như Number nhưng chỉ lấy số đầu bỏ string
 parseFloat(String_so_dau)               // Như parseInt nhưng lấy được số lẻ (float)
 so.toString()                           // number to string
-so.toFixed(n)                           // Làm tròn n số lẻ
-so.toPrecision(n)                       // Lấy n số lẻ
-valueOf()                               // Lấy giá trị gi đó
 ```
+
+~~so.toFixed(n), so.toPrecision(n), number.toExponential()
+Number.isSafeInteger(), Number.isNaN(), Number.isInteger(), Number.isFinite()~~
 
 - #### [Date Object](https://trello.com/c/C07RqZRU/36-js-date-object-33)
 
